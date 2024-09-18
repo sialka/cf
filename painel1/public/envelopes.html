@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+  <title>Envelopes</title>    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">     
+  <link rel="stylesheet" href="assets/css/envelope.css">
+</head>
+<body>  
+
+  <p id="tipoVozes"></p>  
+  <span id="controle"></span>
+
+  <div class="container">
+    <div class="card bg-dark text-center bungee card-title">
+
+      <!-- Titulo -->
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <div class="bungee medium">
+          <h1 class="text-white">Cartão</h1>      
+        </div> 
+      </div>
+
+      <!-- Card Corpo -->
+      <div class="card-body bgcolor">
+
+        <div class="bg-color">     
+          <label class="">Em Atendimento</label>                           
+          <h2 id="atendimento" class="text-success">---</h2>
+        </div>     
+
+        <div class="card bord m-top" style="background-color: #fdf6f6">
+
+          <div class="col-12" style="margin: 15px 0px">
+            <labe class="">Localidade:</label> 
+            <div class="col-12">
+              <input list="localidades" name="localidade" id="localidade" tabindex="0" placeholder="Clique aqui..." class="form-control" style="font-size: 1.5em; padding: 14px 1px">              
+              <datalist id="localidades"></datalist>
+            </div>
+            <div class="col-12 m-top">
+              <button id="btChamar" class="btn btn-block btn-success bt-dedo large">Chamar</button> 
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row m-top">          
+          <div class="col-12">
+            <button id="btRepete" class="btn btn-lg btn-block btn-warning bt-dedo large">Repete</button> 
+          </div>
+        </div>
+      
+      </div>
+
+    </div>     
+  </div>
+  
+  <script src="assets/js/jquery.min.js"></script>  
+  <script src="assets/js/data.js"></script>    
+  <script src="assets/js/socket.io.js"></script>    
+  <script src="assets/js/panel2.js"></script>  
+  <script src="assets/js/envelope.js"></script>
+  <script src="assets/js/voice.js"></script> 
+  <script>
+    const saidaSom = localStorage.getItem('som');   
+
+    if(saidaSom == null){
+      saidaSom = 1
+    }   
+
+  </script>  
+</body>
+</html>

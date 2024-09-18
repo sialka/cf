@@ -1,0 +1,68 @@
+@media only screen and (max-width: 400px) {
+  .card-title{
+    margin-top: 1.2em !important;    
+  }
+  .card-info{
+     font-size: 1em !important;     
+  }
+  .bt-dedo{
+    height: 2em !important;        
+  }   
+  h1, h2{
+    font-size: 1em !important;  
+  }
+  button .large{
+    font-size: 2em !important;  
+  }
+}
+
+
+.card-info{
+  background-color: red;
+}
+
+.card-title{
+  margin-top: 2em;
+}
+
+.bungee{
+  font-family: 'Bungee', cursive;
+  font-weight: 700; 
+  overflow: hidden; 
+}
+.medium{
+  font-size: 2em;  
+}
+.large{
+  font-size: 2.5em !important;
+}
+a{
+  color: white;
+}
+a:link{
+  text-decoration: none;      
+}
+a:hover{
+  color:red;
+}
+
+.bgcolor{
+  background-image: linear-gradient(to bottom right, #e6e6e6, #a6a6a6);
+}
+
+.bord{
+  border: 2px solid black!important;
+}
+
+.mtop{
+  margin-top: 1em;
+}
+
+.m-top{
+  margin-top: 1em;
+}
+
+.bt-dedo{
+  height: 3em;
+}
+

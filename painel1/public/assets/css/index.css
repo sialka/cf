@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+    .hide-cel{
+        display: none !important;
+    }
+    .container{
+        width: 100% !important;
+    }   
+    .show-cel{        
+        display: flex !important;
+        margin-top: 1em;        
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .text-link{
+        margin-left: 1em !important;;
+        font-size: 0.8em !important;;
+    }        
+}
+
+/* Geral */
+.container{
+    width: 40%;
+}
+h1,h2 {
+    font-size: 1.6em;
+}
+.border-limit{
+    border-bottom: 4px solid black
+}
+.bg-som, .btn-som{
+    background-color: #4C4A48
+}
+.hide-cel{   
+    display: flex; 
+}
+.hide{
+    display: none;
+}
+.show-cel{    
+    display: none;
+}
+
+.text-link{
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+/* Card */
+.card{
+    border: 4px solid black;      
+}
+.card-header:first-child{
+    border-radius: 0px;
+}
+
+/* Buttons */
+.btn{
+    font-size: 1.4em;
+}
+.btn1, .btn2 {
+    height: 2.5em;
+    font-size: 1.5em;
+    text-align: center;      
+    color: white;
+}
+.btn1{
+    background-color:#486860;        
+}
+.btn2{
+    background-color: #525E54;    
+}
+.btn1:hover, .btn2:hover{
+    color: #FFB900;
+}
+.btn-som{    
+    color: #7A7574;
+    font-size: 1.5em;
+}
+.btn-som:hover{    
+    color: #ffffff;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Panel</title>
+  <link rel="stylesheet" href="assets/css/panel1.css">  
+  <link rel="stylesheet" href="assets/css/animation.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Rancho|Squada+One&display=swap" rel="stylesheet"> 
+  
+</head>
+<body>   
+    
+
+    <span id="painel"></span>
+    <select id="vozes" size="3" style="display: none"></select>        
+    <button style="display: none"></button>
+
+    <!-- Conferência de Fichas -->    
+    <div class="row">        
+      <div class='col col-info'>        
+        <h1 class="cor-ficha">...</h1>                    
+      </div>
+      <div class="col col-senha col-align">        
+        <h2 class="cor-senha">Senha</h2>
+        <p id="painel-ficha" class="cor-ficha">0</p>        
+      </div>       
+    </div>  
+
+    <!-- Reserva de Roupas -->
+    <div class="row">          
+      <div class='col col-info'>        
+        <h1 class="cor-reserva">...</h1>                      
+      </div>      
+      <div class="col col-senha col-align">        
+        <h2 class="cor-senha">Senha</h2>                                  
+        <p id="painel-reserva" class="cor-reserva">0</p>                                                      
+      </div>     
+    </div>  
+  
+    <!-- Reserva de Roupas -->
+    <ul class="squares"></ul>
+    
+    <script src="assets/js/jquery.min.js"></script>  
+    <script src="assets/js/socket.io.js"></script>
+    <script src="assets/js/anima-back.js"></script> 
+    <script src="assets/js/data.js"></script>  
+    <script src="assets/js/panel1.js"></script>   
+    <script src="assets/js/voice.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 400px) {
+  .card-top{
+    margin-top: 0.5em !important;
+  }
+  .large{
+    font-size: 7em !important;
+  }  
+  .medium{
+    font-size: 1.6em !important;
+  }
+  .btn-submit{
+    height: 3.5em !important;
+  }
+}
+
+.card-top{
+  margin-top: 2em; 
+}
+
+.bungee{
+  font-family: 'Bungee', cursive;
+  font-weight: 700; 
+  overflow: hidden; 
+}
+.medium{
+  font-size: 2em;
+}
+.large{
+  font-size: 10em;
+}
+a{
+  color: white;
+}
+a:link{
+  text-decoration: none;      
+}
+a:hover{
+  color:red;
+}
+
+.bgcolor{
+  background-image: linear-gradient(to bottom right, #e6e6e6, #a6a6a6);
+}
+
+.btn-submit{
+  height: 5em;
+}
+
+h1{
+  font-size: 1em;
+}
